@@ -4,7 +4,6 @@ Backend service using FastAPI
 
 ## TODO
 
-- CI supprot using Github Action
 - Containerize
 
 ## Install python environment with poetry
@@ -17,4 +16,10 @@ poetry install
 
 ```
 pytest
+```
+
+## Run server
+
+```
+uvicorn app.main:app --reload
 ```
